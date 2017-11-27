@@ -35,7 +35,7 @@ public class PokemonGame
 		String space1 = userinput.nextLine();
 		System.out.println("Here, you will become a trainer and start your adventure into the Pokemon Battle");
 		String space4 = userinput.nextLine();
-		//this is unrealistic. pikachu does not look like this
+		//this is unrealistic. pikachu does not look like this.
 	}
 
 	private static void choosePokemon()
