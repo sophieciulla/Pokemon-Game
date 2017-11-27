@@ -33,35 +33,22 @@ public class PokemonGame
 		Scanner userinput = new Scanner(System.in);
 		System.out.println("Welcome to the Pokemon world! Press enter to begin");
 		String space1 = userinput.nextLine();
-		System.out.println("I am your helper: Pikachu!!!");
-		String space2 = userinput.nextLine();
-		System.out.println("/＼7　　　 ∠＿/");
-		System.out.println(" /　│　　 ／　／");
-		System.out.println("│　Z ＿,＜　／          /`ヽ");
-		System.out.println("│　　　　　ヽ　　          /　　〉");
-		System.out.println("Y　　　　　` |    /　　/");
-		System.out.println("ｲ●　､　●　　   |  〈　　/");
-		System.out.println("()　 v　  　()　     ＼ 〈");
-		System.out.println(">ｰ ､_　  ィ    │  ／／");
-		System.out.println(" / へ　  /　ﾉ| ＼＼");
-		System.out.println("ヽ_ﾉ　　(_／　 │／／");
-		System.out.println("7　　　　　　　|／");
-		System.out.println("　＞―r￣￣`ｰ―＿");
-		String space3 = userinput.nextLine();
 		System.out.println("Here, you will become a trainer and start your adventure into the Pokemon Battle");
 		String space4 = userinput.nextLine();
+		//this is unrealistic. pikachu does not look like this
 	}
 
 	private static void choosePokemon()
 	{
-		Scanner userinput = new Scanner(System.in);
+		Scanner userInput = new Scanner(System.in);
 		System.out.println("First, you need to pick up your first pokemon");
 		System.out.println("1. Bulbasaur.     2. Charmander.     3. Squirtle");
-		String chooser = userinput.nextLine();
+		String chooser = userInput.nextLine();
 		if (chooser.equals("Bulbasaur") || chooser.equals("1"))
 		{
 			System.out.println("Here is your pokemon: Bulbasaur!!!");
 			myPokemon.add(PokemonVersion.dictionary.get(0));
+			//please change the arrayList name it's very confusing.
 
 		} else if (chooser.equals("Charmander") || chooser.equals("2"))
 		{
